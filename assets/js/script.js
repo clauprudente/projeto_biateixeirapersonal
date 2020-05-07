@@ -1,4 +1,4 @@
-function myFunction() {
+function toggleAnimation() {
     let menu = document.getElementById("menu");
     let hamburger = document.querySelector('.containerhamburger .hamburger');
     if (menu.className === "menu") {
