@@ -62,8 +62,7 @@ img {
 .container-card {
     display: flex;
 }
-.card {
-    background: #fff;
+.card { 
     border-top: 9px solid #D32D2C;
     width: 33%;
     height: 301px;
