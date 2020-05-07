@@ -202,7 +202,7 @@ header {
 .navbar a {
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;
+    font-size: 1.4em;
 }
 
 .navbar a:hover {
