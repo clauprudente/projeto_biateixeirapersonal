@@ -113,7 +113,7 @@ img {
 .card { 
     border-top: 5px solid #D32D2C;
     background: #fff;
-    border-radius: 20px;
+    border-radius: 5px;
     width: 33%;
     height: 301px;
     margin: 15px;
@@ -129,15 +129,11 @@ header {
     z-index: 1;
     transition: all 0.2s ease;
 }
-  
-.fundo_roxo {
-    background-color: #2B2C6E; 
-    transition: all 0.2s ease;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
-}
+   
 .navbar { 
     display: flex;
-    list-style: none;
+    list-style: none; 
+    background-color: #2B2C6E; 
 } 
 .navbar li {
     padding: 13px;
@@ -156,29 +152,28 @@ header {
 .containerhamburger {
     display: none;
 }
-  .containerhamburger {
-    background: #fff;
+  .containerhamburger { 
     border-radius: 50%;
     width: 40px;
     height: 40px;
     position: fixed;
-    top: 12px;
-    right: 12px;
+    top: 16px;
+    right: 19px;
 }
 
   .hamburger {
     position: relative;
     display: block;
-    background: #000;
-    width: 20px;
+    background: #fff;
+    width: 30px;
     height: 3px;
     top: 19px;
-    left: 9px;
+    left: 10px;
     transition: .5s ease-in-out;
   }
 
   .hamburger:before, .hamburger:after {
-      background: #000;
+      background: #fff;
       content: '';
       display: block;
       width: 100%;
@@ -188,11 +183,11 @@ header {
   }
 
   .hamburger:before {
-    top: -8px;
+    top: -10px;
   }
 
   .hamburger:after {
-    bottom: -8px;
+    bottom: -10px;
   }
 
   .hamburger.active {
@@ -238,8 +233,8 @@ section#intro {
 }
 
 .about img { 
-    width: 318px;
-    border-radius: 20px;
+    width: 100%;
+    border-radius: 5px;
     -webkit-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.3);
     -moz-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.3);
     box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.3);
@@ -266,8 +261,7 @@ footer p {
     .container.about {
         padding-right: 30px;
     }
-    header {
-        background-color: #2B2C6E; 
+    header { 
         height: 70px; 
     }
     
