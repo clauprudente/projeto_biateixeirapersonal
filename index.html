@@ -5,11 +5,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+    <title>Home | Bia Teixx Personal</title>
 </head>
 
 <body>
+    <header class="navbar">
+        <div class="container navbar">
+            <img class="logo" src="assets/img/logo_branco.png">
+            <nav id="menu" class="menu" role="navigation">
+                <ul class="navbar">
+                    <li>
+                        <a href="#intro">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="#depoimentos">Depoimentos</a>
+                    </li>
+                    <li>
+                        <a href="#duvidasfrequentes">Dúvidas</a>
+                    </li>
+                    <li>
+                        <a href="#planos">Planos</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="containerhamburger">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <span class="hamburger"></span>
+                </a>
+            </div>
+        </div>
+    </header>
 
+    <section id="intro">
+        <div class="container intro">
+            <div class="container">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container about">
+            <div>
+                <img src="assets/img/sobremim.jpg">
+            </div>
+            <div class="aboutme">
+                <h1>Sobre mim</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                    it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                    PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <div class="container depoimentos">
+            <h1>DEPOIMENTOS</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+                of Lorem Ipsum.
+            </p>
+        </div>
+    </section>
+
+    <section id="duvidasfrequentes">
+        <div class="container duvidasfrequentes">
+            <h1>Dúvidas Frequentes</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+                of Lorem Ipsum.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="planos">
+        <div class="container planos">
+            <h1>PLANOS</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+                of Lorem Ipsum.
+            </p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container contato">
+            <h1>Contato</h1>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Nome:
+                        <input type="text" name="name" />
+                    </label>
+                </p>
+                <p>
+                    <label>Email:
+                        <input type="email" name="email" />
+                    </label>
+                </p>
+                <p>
+                    <label>Objetivo
+                        <input type="text" name="objetivo" />
+                    </label>
+                </p>
+                <p>
+                    <label>Mensagem:
+                        <textarea name="message"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer">
+
+            <div class="container social-media">
+                <p>
+                    Projeto realizado por Cláudia Prudente
+                </p>
+                <p>
+                    © Copyright 2020 - Todos os direitos reservados.
+                </p>
+                <a class="social instagram" href="https://www.instagram.com/biateixx/" target="__blank">
+                    <img class="social instagram" src="">
+                </a>
+                <a class="social facebook" href="https://www.facebook.com/" target="__blank">
+                    <img class="social facebook" src="">
+                </a>
+
+                <a class="social email" href="https://www.facebook.com/" target="__blank">
+                    <img class="social email" src="">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
