@@ -412,6 +412,6 @@ footer p {
     }
 
     h1:after {
-        bottom: 0px;
+        top: 3px;
     }
   }
