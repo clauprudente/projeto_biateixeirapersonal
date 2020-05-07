@@ -52,14 +52,18 @@ img {
 }
 
 .container.about { 
-    padding: 120px 30px 0px;
+    padding: 100px 30px 0px;
 }
 .container.depoimentos { 
-    padding: 120px 30px 0px;
+    padding: 100px 30px 0px;
 }
 
 .container.duvidasfrequentes { 
-    padding: 120px 30px 0px;
+    padding: 100px 30px 0px;
+}
+
+.container-duvidas {
+    padding: 20px 0px 0px;
 }
 .accordion {
     background-color: #eee;
@@ -99,21 +103,22 @@ img {
   }
 
 .container.planos { 
-    padding: 120px 30px 0px;
+    padding: 100px 30px 0px;
 }
 
 .container.contato {
-    padding: 120px 30px 120px;
+    padding: 100px 30px 70px;
 }
 
 .container-card {
     display: flex;
+    padding: 20px 0px 0px;
 }
 .card { 
     border-top: 5px solid #D32D2C;   
     width: 33%;
-    height: 301px;
-    margin: 15px;
+    height: 301px; 
+    margin-right: 15px;
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
     border-bottom: 1px solid #eee; 
@@ -241,7 +246,7 @@ section#intro {
 } 
 
 footer { 
-    padding: 120px 30px 0px;
+    padding: 100px 30px 0px;
     background-color: #2B2C6E;
     padding: 10px;
     text-align: center; 
