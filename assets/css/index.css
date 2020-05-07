@@ -34,6 +34,10 @@ h1:after {
     background: #D42D2C;
 }
 
+h2 {
+    color: #D42D2C;
+}
+
 p {
     text-align: justify;
     font-size: 1em;
@@ -43,12 +47,46 @@ p {
 
 img {
     display: block;
-    width: 100%;
 }
 
 .container {
     max-width: 970px;
     margin: 0 auto;
+}
+
+.container.consultoria { 
+    padding: 100px 30px 0px;
+}
+
+.first-quote {
+    font-weight: 700;
+}
+
+.container.tutorial { 
+    padding: 60px 30px 0px;
+}
+
+.container-card-tutorial {
+    display: flex;
+}
+
+.container-card-tutorial .card {
+    background: #CE93B6;
+    color: #FFF;
+    width: 33%;
+    height: 190px;
+    margin-right: 15px;
+    border-radius: 2%;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.3);
+}
+
+.container-card-tutorial .card p {
+    color: #ffffff;
+}
+
+.container.diferenciais { 
+    padding: 60px 30px 0px;
 }
 
 .container.about { 
@@ -59,7 +97,7 @@ img {
 }
 
 .container.duvidasfrequentes { 
-    padding: 100px 30px 0px;
+    padding: 100px 30px 70px;
 }
 
 .container-duvidas {
@@ -107,15 +145,15 @@ img {
 }
 
 .container.contato {
-    padding: 100px 30px 70px;
+    padding: 100px 30px 0px;
 }
 
-.container-card {
+.container-card-price {
     display: flex;
     padding: 20px 0px 0px;
 }
-.card { 
-    border-top: 5px solid #D32D2C;   
+.container-card-price .card { 
+    border-top: 5px solid #D42D2C;   
     width: 33%;
     height: 301px; 
     margin-right: 15px;
@@ -129,6 +167,7 @@ img {
 
 header {
     position: fixed;
+    background-color: #2B2C6E; 
     width: 100%; 
     height: 75px;
     z-index: 1; 
@@ -139,7 +178,6 @@ header {
 .navbar { 
     display: flex;
     list-style: none; 
-    background-color: #2B2C6E; 
 } 
  
 .navbar li {
@@ -225,6 +263,18 @@ section#intro {
     padding-top: 112px;
     background-image: url('../img/academia.jpg');
     height: 550px;  
+    position: relative;
+}
+
+.intro {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    font-style: italic;
 }
  
 .container.about {
@@ -238,12 +288,22 @@ section#intro {
     padding-right: 30px;
 }
 
-.about img { 
+.about .personal { 
     width: 100%;
     border-radius: 2%;
     -webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.3);
 } 
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media img {
+    padding-left: 20px;
+    padding-right: 10px;
+}
 
 footer { 
     padding: 100px 30px 0px;
@@ -307,11 +367,11 @@ footer p {
           width: 100%;
           padding-top: 30px;
       }
-      .about img {
+      .about .personal {
         width: 100%;
       }
 
-      .container-card {
+      .container-card-price {
         display: flex;
         flex-direction: column;
     }
