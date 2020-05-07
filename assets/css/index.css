@@ -22,7 +22,7 @@ body {
 h1 {
     color: #2B2C6E;
     text-transform: uppercase;
-    font-size: 2.5em; 
+    font-size: 1.625em; 
     padding-bottom: 20px;
 }
 
@@ -52,14 +52,14 @@ img {
 }
 
 .container.about { 
-    padding: 100px 30px 0px;
+    padding: 120px 30px 0px;
 }
 .container.depoimentos { 
-    padding: 100px 30px 0px;
+    padding: 120px 30px 0px;
 }
 
 .container.duvidasfrequentes { 
-    padding: 100px 30px 0px;
+    padding: 120px 30px 0px;
 }
 .accordion {
     background-color: #eee;
@@ -99,26 +99,27 @@ img {
   }
 
 .container.planos { 
-    padding: 100px 30px 0px;
+    padding: 120px 30px 0px;
 }
 
 .container.contato {
-    padding: 100px 30px 100px;
+    padding: 120px 30px 120px;
 }
 
 .container-card {
     display: flex;
 }
 .card { 
-    border-top: 5px solid #D32D2C;
-    background: #f2f2f2;
-    border-radius: 5px;
+    border-top: 5px solid #D32D2C;   
     width: 33%;
     height: 301px;
     margin: 15px;
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eee; 
+    border-radius: 2%;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.3);
 }
 
 header {
@@ -218,8 +219,7 @@ header {
 section#intro {
     padding-top: 112px;
     background-image: url('../img/academia.jpg');
-    height: 550px; 
-    margin: 0px 0px 40px;
+    height: 550px;  
 }
  
 .container.about {
@@ -230,7 +230,7 @@ section#intro {
 .aboutme {
     width: 50%;
     text-align: justify;
-    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .about img { 
@@ -241,7 +241,7 @@ section#intro {
 } 
 
 footer { 
-    padding: 100px 30px 0px;
+    padding: 120px 30px 0px;
     background-color: #2B2C6E;
     padding: 10px;
     text-align: center; 
@@ -314,9 +314,6 @@ footer p {
     .card {
         width: 100%;
         margin: 15px 0px;
-        border-radius: 2%;
-        -webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
-        -moz-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.3);
     }
 
     h1 {
