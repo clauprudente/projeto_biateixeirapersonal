@@ -408,10 +408,10 @@ footer p {
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
-    h1:after  {
-        bottom: 7px;
+    h1:after {
+        bottom: 0px;
     }
   }
