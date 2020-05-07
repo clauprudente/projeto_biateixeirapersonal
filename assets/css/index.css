@@ -341,7 +341,7 @@ footer p {
 }
  
 
-@media screen and (max-width: 850px) { 
+@media screen and (max-width: 915px) { 
     .containerhamburger {
         display: inline;
     }
@@ -366,9 +366,21 @@ footer p {
         top: 40px;
         width: 100%;
     }
+
+    section#intro {
+        padding-top: 112px;
+        background-image: url(../img/academia.jpg);
+        background-size: 930px;
+        height: 421px;
+        position: relative;
+    }
+
+    .intro {
+        font-size: 0.7em;
+    }
     
     .menu.active li {
-        background: #2B2C6E;
+        background: rgba(43,44,110,0.9);
     }
 
     .menu.active a {
@@ -422,5 +434,19 @@ footer p {
 
     h1:after {
         top: 3px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    section#intro {
+        padding-top: 112px;
+        background-image: url(../img/academia.jpg);
+        background-size: 497px;
+        height: 329px;
+        position: relative;
+    }
+
+    .intro {
+        padding: 8px;
     }
   }
