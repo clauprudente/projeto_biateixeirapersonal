@@ -29,7 +29,7 @@ h1 {
 h1:after {
     content: "";
     display: block;
-    width: 83px;
+    width: 50px;
     height: 2px;
     background: #D42D2C;
 }
