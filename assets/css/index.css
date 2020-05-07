@@ -222,7 +222,8 @@ header {
 section#intro {
     padding-top: 112px;
     background-image: url('../img/academia.jpg');
-    height: 550px;
+    height: 550px; 
+    margin: 0px 0px 40px;
 }
  
 .container.about {
@@ -245,13 +246,15 @@ section#intro {
 } 
 
 footer {
-    background-color: #CE93B6;
-    padding: 20px;
+    background-color: #2B2C6E;
+    padding: 10px;
     text-align: center; 
 }
 
 footer p {
-    color: #fff;
+    padding: 0px;
+    color: #fff; 
+    text-align: center;
 }
  
 
