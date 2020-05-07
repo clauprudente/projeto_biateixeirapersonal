@@ -441,8 +441,9 @@ footer p {
     section#intro {
         padding-top: 112px;
         background-image: url(../img/academia.jpg);
-        background-size: 497px;
-        height: 329px;
+        background-size: 414px;
+        background-position: 0px 65px;
+        height: 341px;
         position: relative;
     }
 
