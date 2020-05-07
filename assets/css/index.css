@@ -36,8 +36,10 @@ h1:after {
 
 h2 {
     color: #D42D2C;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25em;
 }
-
 p {
     text-align: justify;
     font-size: 1em;
@@ -255,6 +257,7 @@ header {
 .logo {
     width: 204px;
     height: 77px;
+    margin: 0px 41px;
 }
  
   
@@ -359,6 +362,7 @@ footer p {
         height: 69px;
         position: absolute;
         left: 40px;
+        margin: 0px;
     }
   }
 
@@ -372,15 +376,23 @@ footer p {
       }
 
       .container-card-price {
-        display: flex;
         flex-direction: column;
     }
 
-    .card {
+    .container-card-price .card {
         width: 100%;
         margin: 15px 0px;
     }
 
+    .container-card-tutorial {
+        flex-wrap: wrap;
+    }
+
+    .container-card-tutorial .card {
+        width: 43%;
+        margin: 5px;
+        margin-right: 15px;
+    }
     h1 {
         font-size: 1.6em;
     }
