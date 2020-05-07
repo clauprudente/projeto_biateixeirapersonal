@@ -406,4 +406,8 @@ footer p {
         margin: 5px;
         margin-right: 15px;
     }
+
+    h1 {
+        bottom: 0px;
+    }
   }
