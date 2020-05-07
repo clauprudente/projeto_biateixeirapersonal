@@ -231,7 +231,6 @@ footer p {
         right: 0px;
         top: 40px;
         width: 100%;
-        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25); 
     }
     
     .menu.active li {
@@ -255,6 +254,9 @@ footer p {
       .aboutme {
           width: 100%;
           padding-top: 30px;
+      }
+      .about img {
+        width: 100%;
       }
 
       .container-card {
