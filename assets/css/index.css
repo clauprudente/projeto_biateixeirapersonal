@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Gabriola';
+    src: '../fonts/Gabriola.ttf';
+}
+
+@font-face {
+    font-family: 'Ail et Fines Herbes';
+    src: '../fonts/Ail et Fines Herbes.ttf';
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400&display=swap');
 
 body,
@@ -21,6 +31,7 @@ body {
 
 h1 {
     color: #2B2C6E;
+    font-family: 'Gabriola', sans-serif;
     text-transform: uppercase;
     font-size: 1.625em; 
     padding-bottom: 20px;
@@ -178,6 +189,7 @@ header {
 }
    
 .navbar { 
+    font-family: 'Gabriola', sans-serif;
     display: flex;
     list-style: none; 
 } 
