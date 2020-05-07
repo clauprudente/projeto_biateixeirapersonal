@@ -32,15 +32,16 @@ body {
 h1 {
     color: #2B2C6E;
     font-family: 'Gabriola', sans-serif;
-    text-transform: uppercase;
-    font-size: 1.625em; 
+    font-size: 2.4em;
     padding-bottom: 20px;
 }
 
 h1:after {
     content: "";
     display: block;
-    width: 50px;
+    width: 47px;
+    position: relative;
+    bottom: 15px;
     height: 2px;
     background: #D42D2C;
 }
@@ -404,8 +405,5 @@ footer p {
         width: 43%;
         margin: 5px;
         margin-right: 15px;
-    }
-    h1 {
-        font-size: 1.6em;
     }
   }
