@@ -6,10 +6,7 @@
 @font-face {
     font-family: 'Ail et Fines Herbes';
     src: '../fonts/Ail et Fines Herbes.ttf';
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400&display=swap');
-
+} 
 body,
 p,
 h1,
@@ -18,7 +15,7 @@ input,
 button {
     margin: 0;
     padding: 0; 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #4d4d4d;
 }
 body { 
@@ -32,8 +29,7 @@ body {
 h1 {
     color: #2B2C6E;
     font-family: 'Gabriola', sans-serif;
-    font-size: 2.4em;
-    padding-bottom: 20px;
+    font-size: 2.4em; 
 }
 
 h1:after {
@@ -52,10 +48,19 @@ h2 {
     text-transform: uppercase;
     font-size: 1.25em;
 }
+
+h3 {
+    font-family: 'Gabriola', sans-serif;
+    font-size: 1.45em;
+    padding: 0px;
+    margin: 5px 0px 0px;
+}
+
 p {
     text-align: justify;
     font-size: 1em;
     line-height: 27px; 
+    letter-spacing: 1.8px;
     padding: 20px 0px 0px;
 }
 
@@ -64,27 +69,27 @@ img {
 }
 
 .container {
-    max-width: 970px;
+    max-width: 820px;
     margin: 0 auto;
 }
 
 .container.consultoria { 
-    padding: 70px 30px 0px;
+    padding: 70px  30px 0px;
 }
 
 .first-quote {
     font-weight: 700;
 }
 
-.container.tutorial { 
-    padding: 60px 30px 0px;
+.container.diferenciais { 
+    padding: 33px 30px 0px;
 }
 
-.container-card-tutorial {
+.container-card-diferenciais {
     display: flex;
 }
 
-.container-card-tutorial .card {
+.container-card-diferenciais .card {
     color: #4d4d4d;
     height: 340px;
     text-align: center;
@@ -99,24 +104,20 @@ img {
     -moz-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.3);
 }
 
-.container-card-tutorial .card img {
+.container-card-diferenciais .card img {
     margin: auto;
 }
  
 
-.container.diferenciais { 
-    padding: 60px 30px 0px;
-}
-
 .container.about { 
-    padding: 100px 30px 0px;
+    padding: 70px 30px 0px;
 }
 .container.depoimentos { 
-    padding: 100px 30px 0px;
+    padding: 70px 30px 0px;
 }
 
 .container.duvidasfrequentes { 
-    padding: 100px 30px 70px;
+    padding: 70px 30px 70px;
 }
 
 .container-duvidas {
@@ -160,21 +161,27 @@ img {
   }
 
 .container.planos { 
-    padding: 100px 30px 0px;
+    padding: 70px  30px 0px;
 }
 
 .container.contato {
     padding: 100px 30px 70px;
 }
 
+.container-card-price .card p.plan-price .currency {
+    font-size: 0.5em;
+}
 .container-card-price {
     display: flex;
     padding: 20px 0px 0px;
 }
 .container-card-price .card { 
     border-top: 5px solid #D42D2C;   
+    text-align: center;
     width: 33%;
-    height: 301px; 
+    height: 301px;     
+    padding-left: 29px;
+    padding-right: 29px;
     margin-right: 15px;
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
@@ -182,6 +189,51 @@ img {
     border-radius: 2%;
     -webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.3);
+}
+
+.container-card-price .card p.plan-price {
+    padding: 0px;
+    font-weight: bold;
+    font-size: 2em; 
+    text-align: center;
+    color: #D42D2C;
+}
+
+.container-card-price .card p.plan-description {
+    font-size: 0.8em; 
+    text-align: center;
+}
+button.btn-plan { 
+    background:#D42D2C;
+    border-radius: 25px;
+    border: 1px solid #D42D2C;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 6px;
+    margin-top: 26px;
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.3);
+}
+
+button.btn-plan:hover {
+    border: 1px solid #D42D2C;
+    background: transparent;
+    color: #D42D2C;
+}
+
+.container-check {
+    display: flex; 
+    font-size: 0.6875em;
+}
+
+.img-check {
+    width: 10px;
+    margin-right: 15px;
+}
+
+button.btn-plan:focus {
+    outline: none;
 }
 
 header {
@@ -356,6 +408,7 @@ footer {
 footer p {
     padding: 0px;
     color: #fff; 
+    font-size: 12px;
     text-align: center;
 }
  
@@ -434,17 +487,17 @@ footer p {
         margin: 15px 0px;
     }
 
-    .container-card-tutorial {
+    .container-card-diferenciais {
         flex-wrap: wrap;
     }
 
-    .container-card-tutorial .card {
+    .container-card-diferenciais .card {
         width: 100%;
         margin: 5px; 
         height: 281px;
         margin-right: 15px;
     }
-    .container-card-tutorial .card img {    
+    .container-card-diferenciais .card img {    
         width: 30%;
     }
     h1 {
