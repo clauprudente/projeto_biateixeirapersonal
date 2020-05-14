@@ -53,7 +53,7 @@ h3 {
     font-family: 'Gabriola', sans-serif;
     font-size: 1.45em;
     padding: 0px;
-    margin: 5px 0px 0px;
+    margin: 0px;
 }
 
 p {
@@ -210,6 +210,11 @@ img {
 .container-card-price .card p.plan-price .currency {
     font-size: 0.5em;
 }
+.plan-image img {
+    width: 53px;
+    padding: 0px;
+    margin: auto;
+}
 .container-card-price .primeiro, .container-card-price .segundo {
     display: flex;
     padding: 20px 0px 0px;
@@ -219,7 +224,7 @@ img {
     border-top: 5px solid #D32D2C;   
     text-align: center;
     width: 31%;
-    height: 301px;     
+    height: 308px;     
     padding: 0px 29px;
     margin: 0px 15px 15px 0px;
     border-left: 1px solid #eee;
@@ -239,9 +244,11 @@ img {
 }
 
 .container-card-price .card p.plan-description {
-    font-size: 0.8em; 
+    font-size: 0.8em;
     text-align: center;
+    padding: 5px 0px;
 }
+
 button.btn-plan { 
     background:#D32D2C;
     border-radius: 25px;
@@ -249,7 +256,7 @@ button.btn-plan {
     cursor: pointer;
     color: #ffffff;
     padding: 6px;
-    margin-top: 26px;
+    margin-top: 15px;
     transition: 0.3s;
     -webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.3);
